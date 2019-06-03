@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<link rel="stylesheet" href="myStyle.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="container">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+<!-- Menu End -->
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Our Organization Title</h1>
+        </div>
+      </section>
+<!-- top title End -->
+      <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="col-md-9">
+            <div class="myWhiteBox">
+				<h3>My News</h3>
+    <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="top col-md-7 col-xs-12"><img src="http://lorempixel.com/416/304/nature" class="img-responsive"></div>
+                        <div class="content col-md-5 col-xs-12">
+                            <h2>Slide 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                        </div>
+                    </div>
+                </div>            
+            </div> 
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="top col-md-7 col-xs-12"><img src="http://lorempixel.com/416/304/nature" class="img-responsive"></div>
+                        <div class="content col-md-5 col-xs-12">
+                            <h2>Slide 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                        </div>
+                    </div>
+                </div>            
+            </div> 
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="top col-md-7 col-xs-12"><img src="http://lorempixel.com/416/304/nature" class="img-responsive"></div>
+                        <div class="content col-md-5 col-xs-12">
+                            <h2>Slide 3</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                        </div>
+                    </div>
+                </div>           
+            </div>
+         <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="top col-md-7 col-xs-12"><img src="http://lorempixel.com/416/304/nature" class="img-responsive"></div>
+                        <div class="content col-md-5 col-xs-12">
+                            <h2>Slide 1</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Helloab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                        </div>
+                    </div>
+                </div>            
+            </div>
+
+        <!-- End Item -->
+        </div>
+        
+        <a data-slide="prev" href="#custom_carousel" class="izq carousel-control">‹</a>
+        <a data-slide="next" href="#custom_carousel" class="der carousel-control">›</a>
+        <!-- End Carousel Inner -->
+                <div class="controls draggable ui-widget-content col-md-7 col-xs-12">
+            <ul class="nav ui-widget-header">
+
+                <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide One</small></a></li>
+                <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Two</small></a></li>
+                <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Three</small></a></li>
+                <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Four</small></a></li> 
+            </ul>
+    </div>
+              </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+			<div class="myWhiteBox">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    </div>
+                    <small class="text-muted">9 mins</small>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <script>
+	$(document).ready(function(ev){
+    var items = $(".nav li").length;
+    var leftRight=0;
+    if(items>5){
+        leftRight=(items-5)*50*-1;
+    }
+    $('#custom_carousel').on('slide.bs.carousel', function (evt) {
+        
+ 
+      $('#custom_carousel .controls li.active').removeClass('active');
+      $('#custom_carousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
+    })
+    $('.nav').draggable({ 
+        axis: "x",
+         stop: function() {
+            var ml = parseInt($(this).css('left'));
+            if(ml>0)
+            $(this).animate({left:"0px"});
+                if(ml<leftRight)
+                    $(this).animate({left:leftRight+"px"});
+                    
+        }
+      
+    });
+});
+	</script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  </body>
+</html>
